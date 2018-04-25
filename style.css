@@ -9,14 +9,13 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   display: grid;
-  margin: 0 auto;
   width: 340px;
   height: 520px;
   grid-template-rows: 110px repeat(5, 1fr);
   grid-template-columns: repeat(4, 1fr);
   grid-template-areas:
     'display display display display'
-    'btn-ac btn-rev btn-perc op-div'
+    'btn-ac btn-neg btn-perc op-div'
     'num-7 num-8 num-9 op-mult'
     'num-4 num-5 num-6 op-min'
     'num-1 num-2 num-3 op-plus'
@@ -46,7 +45,7 @@ button {
 }
 
 .op-neg {
-  grid-area: btn-rev;
+  grid-area: btn-neg;
 }
 
 .op-percent {
