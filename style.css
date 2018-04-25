@@ -20,12 +20,13 @@ body {
     'num-4 num-5 num-6 op-min'
     'num-1 num-2 num-3 op-plus'
     'num-0 num-0 num-dot op-eql';
+  box-shadow: 1px 1px 4px #343a40;
 }
 
 button {
   border-width: 0;
   font-size: 2em;
-  background: #dee2e6;
+  background: #e9ecef;
 }
 
 .display {
@@ -36,6 +37,14 @@ button {
   grid-area: display;
   line-height: 1.6;
   direction: rtl;
+}
+
+.op {
+  background: #ced4da;
+}
+
+.op-dark {
+  font-size: 2.5em;
 }
 
 .op-ac {
