@@ -41,10 +41,12 @@ button {
 
 .op {
   background: #ced4da;
+  color: #868e96;
 }
 
 .op-main {
   font-size: 2.5em;
+  color: #343a40;
 }
 
 .op-ac {
