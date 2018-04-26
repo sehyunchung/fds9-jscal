@@ -8,9 +8,9 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  display: grid;
   width: 340px;
   height: 520px;
+  display: grid;
   grid-template-rows: 110px repeat(5, 1fr);
   grid-template-columns: repeat(4, 1fr);
   grid-template-areas:
