@@ -36,7 +36,6 @@ button {
   font-size: 4em;
   grid-area: display;
   line-height: 1.6;
-  direction: rtl;
 }
 
 .op {
